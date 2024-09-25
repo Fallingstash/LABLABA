@@ -9,7 +9,7 @@ int main() {
     double t0 = 100 ;
     double tv = 20;
     int i = 0;
-    while (i < 8) {
+    while (i =< 8) {
     int T = TIME[i];
     double t = tv + (t0 - tv) * exp(-T/20);
     cout << "СПУСТЯ ВРЕМЯ  " << T << " МИНУТ ТЕМПЕРАТУРА ПЛИТЫ " << t << " ГРАДУСОВ ЦЕЛЬСИЯ" << endl;
